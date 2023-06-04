@@ -1,0 +1,26 @@
+
+/* 设置主要内容区的宽度、高度、边框属性 */
+.main{
+    width: 1000px;
+    height: 600px;
+    border: 1px solid #eee;
+ }
+/*设置主要内容文字的部分的宽度和浮动 */
+.main_text{
+    width: 650px;
+    float: left;
+}
+/* 设置主要内容文字部分字体样式 */
+.main_text p{  
+    width: 550px;
+    margin: 10px auto;
+    line-height: 30px;
+    color: #777;
+    font-size: 14px;
+}
+/* 设置主要内容部分图片的浮动与外边距 */
+.main img{
+    float: left;
+    margin:50px 40px;
+}
+

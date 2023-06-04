@@ -1,0 +1,46 @@
+/* 设置主要内容区的宽度、高度、边框、背景颜色、外边距 */
+.main{
+    width: 1000px;
+    height: 1800px;
+    border: 1px solid #eee;
+}
+/* 设置主标题的宽度、高度、边框、背景颜色、外边距 */
+.main_title{
+    width: 90%;
+    height: 120px;
+    border: 1px solid #eee;
+    background-color: #EBEBEB;
+    margin: 10px auto;
+}
+/* 设置主标题文字的部分样式 */
+.main_title p{
+    width: 90%;
+    margin: 10px auto;
+    line-height: 25px;
+    color: #555;
+    font-size: 14px;
+}
+/* 设置主要内容部分的宽度、高度、外边距、行高 */
+.part{
+    width: 90%;
+    height: auto;
+    margin: 10px auto;
+    line-height: 25px;
+}
+/* 设置内容小标题的样式 */
+.part_title{
+    display: inline-block;
+    width: 480px;
+    height: 30px;
+    margin:20px 0;
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    border-left: 4px solid #44dd;
+}
+/* 设置内容图片的宽度、外边距 */
+.part img{
+    width: 640px;
+    margin: 5px auto;
+}
+

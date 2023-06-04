@@ -1,0 +1,33 @@
+/* 设置宽度、高度、边框 */
+.main{
+    width: 1000px;
+    height: 600px;
+    border: 1px solid #eee;
+}
+/* 设置主要内容文字部分的宽度、浮动 */
+.main_text{
+    width: 650px;
+    float: left;
+}
+/* 设置主要内容文字部分的字体样式 */
+.main_text p{
+    width: 550px;
+    margin: 10px auto;
+    line-height: 30px;
+    color: #777;
+    font-size: 14px;
+}
+/* 设置图片的浮动、外边距 */
+.main img{
+    float: left;
+    margin:50px 40px;
+}
+/* 设置表单部分的高度、外边框 */
+.detail{
+    width: 400px;
+    margin: 0 auto;
+}
+/* 设置文本域的高度 */
+textarea{
+    height: 80px;
+}
